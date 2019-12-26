@@ -64,7 +64,7 @@ var RegionGroupRegions = map[string][]string{}
 
 func CountryRegionGroup(country, region string) string {
 
-	if country != "us" {
+	if country != "us" && country != "ru" {
 		return ""
 	}
 
